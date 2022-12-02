@@ -3,7 +3,7 @@
 </script>
 
 <header class="container">
-    <h1>chris bernhard</h1>
+    <span class="logo">chris bernhard</span>
     <Nav />
 </header>
 
@@ -15,8 +15,10 @@
         justify-content: space-between;
         padding: 2.5rem 0;
     }
-    h1 {
+    .logo {
+        font-size: 2.5rem;
         font-weight: 700;
         letter-spacing: 1.5px;
+
     }
 </style>
