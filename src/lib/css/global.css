@@ -1,0 +1,40 @@
+/* VARIABLES */
+:root {
+    --black: #151515;
+    --gray: #242424;
+    --white: #FFFFFF;
+    --accent: #4DE2A0;
+}
+
+
+/* RESETS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Alexandria', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+body {
+	min-height: 100vh;
+    
+}
+
+a:link,
+a:visited {
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent);
+}
+
+/* UTILITIES */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
