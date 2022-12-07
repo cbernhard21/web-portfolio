@@ -10,14 +10,12 @@
 
 <style>
     header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
+        position: relative;
+        z-index: 10; 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2.5rem 0;
+        padding: 2.5rem 2rem;
     }
     .logo {
         font-size: 2.5rem;

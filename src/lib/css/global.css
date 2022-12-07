@@ -3,7 +3,7 @@
     --black: #151515;
     --gray: #242424;
     --white: #FFFFFF;
-    --off-white: #C9C9C9;
+    --off-white: #c4c4c4;
     --accent: #4DE2A0;
 }
 
@@ -36,7 +36,6 @@ a:visited {
 
 img {
     max-width: 100%;
-    width: 100%;
 }
  
 p {
@@ -65,4 +64,9 @@ p {
     display: inline-block;
     padding-bottom: 1.5rem;
     font-size: 1.4rem;
+    transition: all .2s ease-in-out;
+}
+
+a.btn:hover {
+    color: var(--accent);
 }

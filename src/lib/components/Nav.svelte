@@ -11,7 +11,18 @@
         list-style-type: none;
         display: flex;
         flex-direction: row;
-        gap: 1.6rem;
+        gap: 4rem;
+    }
+
+    .nav-link {
+        display: inline-block;
+        font-size: 1.6rem;
+        letter-spacing: 1.2px;
+        transition: all .2s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: var(--accent);
     }
 </style>
 

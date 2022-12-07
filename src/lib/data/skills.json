@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "skill": "HTML",
+            "details": "I write sematic easy to read HTML."
+        },
+        {
+            "skill": "CSS",
+            "details": "I utilitze CSS's full power by using grid, variables, and other useful features."
+        },
+        {
+            "skill": "JavaScript",
+            "details": "JavaScript if a language I'm very comfortable with.  Both the front and back end."
+        },
+        {
+            "skill": "SvelteKit",
+            "details": "A front-end frame work that does something...."
+        },
+        {
+            "skill": "Tailwind CSS",
+            "details": "By utilitzing this CSS library, I can quickly mock up designs."
+        },
+        {
+            "skill": "Supabase",
+            "details": "Using a cloud database does something...."
+        }
+    ]
+}

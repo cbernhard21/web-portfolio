@@ -20,17 +20,19 @@
 
 <style>
     .hero-wrapper {
-        height: 90vh;
+        height: 100vh;
+        transform: translateY(-80px);
     }
 
     .hero {
-        height: 100%;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         position: relative;
         gap: 5rem;
+        padding: 0 2rem;
     }
 
     h1 {
@@ -54,7 +56,15 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: 500px;
+        max-height: 100%;
         z-index: -999;
     }
+
+    /* @media screen and (max-width: 767px) {
+        .profile-pic {
+    
+            max-width: 300px;
+            z-index: -999;
+        }
+    } */
 </style>
