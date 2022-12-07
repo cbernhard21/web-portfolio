@@ -1,0 +1,62 @@
+{
+    "skills": [
+        {
+            "skill": "HTML",
+            "details": "I write sematic easy to read HTML."
+        },
+        {
+            "skill": "CSS",
+            "details": "I utilitze CSS's full power by using grid, variables, and other useful features."
+        },
+        {
+            "skill": "JavaScript",
+            "details": "JavaScript if a language I'm very comfortable with.  Both the front and back end."
+        },
+        {
+            "skill": "SvelteKit",
+            "details": "A front-end frame work that does something...."
+        },
+        {
+            "skill": "Tailwind CSS",
+            "details": "By utilitzing this CSS library, I can quickly mock up designs."
+        },
+        {
+            "skill": "Supabase",
+            "details": "Using a cloud database does something...."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Stinger Trucking's Website",
+            "technology": ["HTML", "CSS", "JavaScript"],
+            "details": "I designed and developed a website for Stinger Trucking.  They are a family owned business that was looking to grow their digital pressence.  I walked them through each step of the process and kept the owners in the loop as work progressed.",
+            "thumbnail": "",
+            "demoLink": "",
+            "codeLink": ""
+        },
+        {
+            "name": "A Landing page from Front End Mentor",
+            "technology": ["Something goes here"],
+            "details": "More details about this project....",
+            "thumbnail": "",
+            "demoLink": "",
+            "codeLink": ""
+        },
+        {
+            "name": "Fantasy Football Archieve",
+            "technology": ["SvelteKit", "Tailwind CSS", "Supabase"],
+            "details": "A long time fantasy football league needed a website to keep track of stats from past seasons and to add new stats to the league's history.  I developed a user dashboard and interface to easily track the stats the league wanted to display.  In addition to a public website, I created a private admin interface.  The admin can easily add, update, and delete team information at needed.",
+            "thumbnail": "",
+            "demoLink": "",
+            "codeLink": ""
+        },
+        {
+            "name": "Home Lego Catalog",
+            "technology": ["SvelteKit", "Tailwind CSS", "Google Sheet API"],
+            "details": "This project serves as a way for families to keep track of their childrens toys, books, or anything else that needs to be tracked.  It is a public facing website a user can easily sort through to see what the family has.  Since most people are very familar with Excel or Google Sheets, I decided to use a spreadsheet at the database.  This family used it primary for Legos.  It helps other family members to see what legos the kids have so there are not any repeats as gifts.",
+            "thumbnail": "",
+            "demoLink": "",
+            "codeLink": ""
+        }
+    ]
+}

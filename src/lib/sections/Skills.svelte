@@ -1,5 +1,5 @@
 <script>
-    import { skills } from '$lib/data/skills.json';
+    import { skills } from '$lib/data/data.json';
 </script>
 
 <div class="skills-wrapper">
