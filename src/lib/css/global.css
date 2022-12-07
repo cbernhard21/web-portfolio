@@ -70,3 +70,12 @@ p {
 a.btn:hover {
     color: var(--accent);
 }
+
+.mb-8 {
+    margin-bottom: 8rem;
+}
+
+.section-title {
+    font-size: 5.6rem;
+    margin-bottom: 3rem;
+}

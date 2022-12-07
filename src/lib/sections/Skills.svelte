@@ -2,9 +2,9 @@
     import { skills } from '$lib/data/data.json';
 </script>
 
-<div class="skills-wrapper">
+<div class="skills-wrapper mb-8">
     <section class="skills container">
-        <h2>Knowledge</h2>
+        <h2 class="section-title">Knowledge</h2>
         <div class="skills-grid">
         {#each skills as skill }
             <article>
@@ -22,12 +22,6 @@
         border-top: 2px solid var(--white);
         padding: 2rem 2rem 0;
     }
-
-    h2 {
-        font-size: 5.6rem;
-        margin-bottom: 3rem;
-    }
-
     .skills-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10px, 350px));
