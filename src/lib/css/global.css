@@ -3,6 +3,7 @@
     --black: #151515;
     --gray: #242424;
     --white: #FFFFFF;
+    --off-white: #C9C9C9;
     --accent: #4DE2A0;
 }
 
@@ -37,9 +38,31 @@ img {
     max-width: 100%;
     width: 100%;
 }
+ 
+p {
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    color: var(--off-white);
+}
 
 /* UTILITIES */
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.block {
+    display: block;
+}
+
+.underline {
+    border-bottom: 3px solid var(--accent);
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding-bottom: 1.5rem;
+    font-size: 1.4rem;
 }
